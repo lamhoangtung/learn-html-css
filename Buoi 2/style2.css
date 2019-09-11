@@ -1,0 +1,21 @@
+table, tr, td, th{
+    border-collapse: separate;
+    border: 1px inset #3300ff;
+    width: 450px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+table tr th{
+    background: #660066;
+    color:#FFFFFF;
+    height: 50px;
+    font-size: 15px;
+}
+
+.canhgiua{
+    text-align: center;
+    background: #660066;
+    color: #FFFFFF;
+    width: 10%;
+}
