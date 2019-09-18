@@ -1,0 +1,47 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul {
+    width: 300px;
+    padding: 0;
+    background: #8AD385;
+    list-style-type: none;
+    text-align: left;
+}
+
+.menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+.menu li:hover {
+    background: #cde2cd
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu .sub-menu {
+    position: absolute;
+    left: 300px;
+    top: 0;
+    display: none;
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+}
